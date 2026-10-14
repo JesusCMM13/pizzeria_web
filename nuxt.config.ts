@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   app: {
     // Con dominio propio la web se sirve en la raíz, así que baseURL = '/'.
     // Si algún día la publicas en usuario.github.io/nombre-repo, cambia esto a '/nombre-repo/'.
-    baseURL: '/NOMBRE-REPO/',
+    baseURL: '/pizzeria_web/',
     head: {
       htmlAttrs: { lang: 'es' },
       meta: [
