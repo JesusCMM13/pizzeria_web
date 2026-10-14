@@ -1,18 +1,17 @@
 /**
- * ─────────────────────────────────────────────────────────────
- *  TODO EL CONTENIDO DE LA WEB ESTÁ AQUÍ.
- *  Cambia los datos de ejemplo por los reales de la pizzería
- *  y la web se actualiza sola (nombre, carta, horario, contacto…).
- * ─────────────────────────────────────────────────────────────
+ *  TODO EL CONTENIDO DE LA WEB AQUÍ.
+ *  Cambiar los datos mojoneros por los reales 
+ *  y la web se actualiza sola .
+ *
  */
 
 export interface Plato {
   nombre: string
   descripcion: string
   precio: number
-  /** Opcional: marca un plato como recomendación de la casa */
+  /** Esto marca un plato como recomendación de la casa */
   destacado?: boolean
-  /** Opcional: etiquetas cortas, p. ej. 'Vegetariana', 'Picante' */
+  /** Etiquetas cortas, como 'Vegetariana', 'Picante', yo que se*/
   etiquetas?: string[]
 }
 
