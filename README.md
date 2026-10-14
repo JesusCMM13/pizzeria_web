@@ -23,14 +23,4 @@ Todo está en **`app/data/pizzeria.ts`**: nombre, lema, carta con precios, horar
 
 ## Publicar en GitHub Pages con dominio propio
 
-1. Crea un repo en GitHub y sube el proyecto a la rama `main`.
-2. En el repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. Edita `public/CNAME` con el dominio real (p. ej. `www.pizzerialabrasa.es`). Una sola línea, sin `https://`.
-4. En el panel DNS de donde compraste el dominio:
-   - `www` → registro **CNAME** apuntando a `TU-USUARIO.github.io`
-   - Dominio raíz (`pizzerialabrasa.es`) → registros **A** a `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-5. En **Settings → Pages** escribe el dominio en *Custom domain*, espera a que se valide el DNS y marca **Enforce HTTPS**.
-
-Cada `git push` a `main` vuelve a publicar la web automáticamente (pestaña *Actions*).
-
-> Si algún día la publicas sin dominio propio, en `usuario.github.io/nombre-repo`, cambia `app.baseURL` en `nuxt.config.ts` a `'/nombre-repo/'` y borra `public/CNAME`.
+???
