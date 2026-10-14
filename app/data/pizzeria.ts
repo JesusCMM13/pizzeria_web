@@ -53,7 +53,7 @@ export const pizzeria = {
     { dias: 'Domingo', horas: '13:30 – 16:30 y 20:00 – 23:30' },
   ],
 
-  carta: [
+  carta: <SeccionCarta[]>[
     {
       id: 'rojas',
       titulo: 'Pizzas rojas',
@@ -102,7 +102,7 @@ export const pizzeria = {
         { nombre: 'Refrescos y agua', descripcion: 'Con gas, sin gas, de toda la vida.', precio: 2.2 },
       ],
     },
-  ] satisfies SeccionCarta[],
+  ],
 
   // Fotos: pon las imágenes en /public/fotos/ y cambia los nombres aquí.
   galeria: [

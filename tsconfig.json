@@ -1,0 +1,10 @@
+{
+  // Los tipos los genera Nuxt en .nuxt/ al ejecutar `npm install` (o `npx nuxt prepare`)
+  "files": [],
+  "references": [
+    { "path": "./.nuxt/tsconfig.app.json" },
+    { "path": "./.nuxt/tsconfig.server.json" },
+    { "path": "./.nuxt/tsconfig.shared.json" },
+    { "path": "./.nuxt/tsconfig.node.json" }
+  ]
+}
